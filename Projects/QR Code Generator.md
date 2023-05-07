@@ -1,5 +1,6 @@
 
-![chrome_FNCvRujzlZ](https://user-images.githubusercontent.com/108348003/236662717-3b7c0da2-1c6a-41da-b79a-f118d75f5e32.png)
+![chrome_0jqeztyepZ](https://user-images.githubusercontent.com/108348003/236662768-c039ff74-47cb-47a3-af8a-77ee2d435d1a.png)
+
 
 
 
@@ -30,12 +31,9 @@ iface = gr.Interface(
     description="Generate a QR code for a given name.",
 )
 
-# Add an image field to the input interface to display the generated QR code
 input_image = gr.inputs.Image(shape=(len("example")*15, len("example")*15))
 
-# Modify the `fn` argument of the interface to accept an image as input and pass it to the `display_qr_code` function
 iface.fn = lambda img: display_qr_code(img.getdata())
 
-# Launch the interface with the updated function argument and input fields
 iface.launch()
 ```
