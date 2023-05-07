@@ -4,7 +4,8 @@ ___
 ### QR Code Generator using Python and Gradio
 ___
 
-![image](https://user-images.githubusercontent.com/108348003/211213928-ab581c1d-fe7d-453f-8c37-e00ce1f05f28.png)
+![chrome_75BGIHWHza](https://user-images.githubusercontent.com/108348003/236662600-f35175c9-0c2a-4f03-b849-c31ae3e83d2c.png)
+
 
 ```
 import gradio as gr
