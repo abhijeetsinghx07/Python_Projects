@@ -1,13 +1,9 @@
 
-___
-
-### QR Code Generator using Python and Gradio
-___
-
-![chrome_75BGIHWHza](https://user-images.githubusercontent.com/108348003/236662600-f35175c9-0c2a-4f03-b849-c31ae3e83d2c.png)
+![chrome_FNCvRujzlZ](https://user-images.githubusercontent.com/108348003/236662717-3b7c0da2-1c6a-41da-b79a-f118d75f5e32.png)
 
 
-```
+
+```python
 import gradio as gr
 import qrcode
 from PIL import Image
