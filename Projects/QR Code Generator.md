@@ -6,7 +6,7 @@ ___
 
 ![image](https://user-images.githubusercontent.com/108348003/211213928-ab581c1d-fe7d-453f-8c37-e00ce1f05f28.png)
 
-
+```
 import gradio as gr
 import qrcode
 from PIL import Image
@@ -41,3 +41,4 @@ iface.fn = lambda img: display_qr_code(img.getdata())
 
 # Launch the interface with the updated function argument and input fields
 iface.launch()
+```
