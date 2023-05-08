@@ -4,6 +4,7 @@
 
 ```python
 
+
 import gradio as gr
 def calculator(a, b, op):
     if op == "+":
@@ -17,6 +18,7 @@ def calculator(a, b, op):
             return "Cannot divide by zero"
         else:
             return a / b
+
 
 interface = gr.Interface(
     fn=calculator,
