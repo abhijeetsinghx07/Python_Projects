@@ -1,4 +1,21 @@
-![email](Projects/pro_images/Email_valid.png)
+import os
+
+# Replace these values with your own information
+github_username = "abhijeetsinghx07"
+github_repo_name = "Python_Projects"
+image_filename = "Projects/pro_images/Email_valid.png"
+
+# Change to the directory where the image is stored
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+# Use the git command to add the image to the repository
+os.system(f"git add {image_filename}")
+
+# Use the git command to commit the changes to the repository
+os.system(f"git commit -m 'Add image {image_filename}'")
+
+# Use the git command to push the changes to the remote repository
+os.system("git push")
 
 
 email=input("Enter your email id: ") 
