@@ -34,6 +34,6 @@ if len(email)>=6:
      else:
          print("Wrong Email 2")
 else:
-     print("Wrong Email 1")
+     print("Wrong Email Aplphabet")
      
 ```
