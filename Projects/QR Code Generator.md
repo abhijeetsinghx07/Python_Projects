@@ -5,7 +5,7 @@
 
 
 ```python
-import gradio as gr
+import gradio as gr #import gradio framework
 import qrcode
 from PIL import Image
 
