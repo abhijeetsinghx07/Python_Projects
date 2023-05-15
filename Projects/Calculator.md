@@ -5,7 +5,7 @@
 ```python
 
 
-import gradio as gr
+import gradio as gr #import gradio 
 def calculator(a, b, op):
     if op == "+":
         return a + b
@@ -18,8 +18,7 @@ def calculator(a, b, op):
             return "Cannot divide by zero"
         else:
             return a / b
-
-
+            
 interface = gr.Interface(
     fn=calculator,
     inputs=["number", "number", gr.inputs.Dropdown(["+", "-", "*", "/"])],
